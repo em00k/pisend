@@ -8,7 +8,7 @@ includes some updated handlers for mod/xm, sid, sndh, tzx
 first version of ModPi Player included with better playback control & amplication 
 
 usage
-
+```
 .pisend -q 
 
  tests for NextPi, first 115,200 then 2Mbit, sets ref $7f to 2 or 8 respectively, 0 on fail
@@ -25,6 +25,7 @@ usage
  ** WARNING THIS COULD STOP NEXTPI FROM BOOTING **
  swaps baud rate of NextPi between 115,200 and 2Mbit, reboots the pi. Use .term to check progress
  
+ ```
  The update hasnt failed in any test but because it is altering a boot file the warning is given
  
  
