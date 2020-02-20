@@ -5,7 +5,7 @@ v2.00b 19/2/2020
 
 includes some updated handlers for mod/xm, sid, sndh, tzx 
 
-first version of ModPi Player included with better playback control & amplication 
+first version of ModPi Player included with better playback control & amplification 
 
 usage
 ```
