@@ -26,7 +26,7 @@ usage
  swaps baud rate of NextPi between 115,200 and 2Mbit, reboots the pi. Use .term to check progress
  
  ```
- The update hasnt failed in any test but because it is altering a boot file the warning is given
+ The update hasnt failed in any test but as it is altering a boot file, the warning is given
  
  
  
