@@ -21,6 +21,8 @@ usage
 
  sends keys to NextPi console (useful for controlling running apps like ModPi)
  
+ You must .pisend -q before .pisend -U as this will set an internal register.
+ 
 .pisend -U 
  ** WARNING THIS COULD STOP NEXTPI FROM BOOTING **
  swaps baud rate of NextPi between 115,200 and 2Mbit, reboots the pi. Use .term to check progress
