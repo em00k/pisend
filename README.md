@@ -1,11 +1,21 @@
 # pisend
 pisend betas
 
-v2.00b 19/2/2020
+v2.06b 01/03/2020
+
+-- fixes 
+  - now reserves and free banks then restores
+
+updates
+  - added -s for soft key (no clear of console)
+  - added -r to empty 512 bytes to $c000 fron the uart buffer 
+  - clean up interface
 
 includes some updated handlers for mod/xm, sid, sndh, tzx 
 
 first version of ModPi Player included with better playback control & amplification 
+
+
 
 usage
 ```
