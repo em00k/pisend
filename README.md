@@ -1,6 +1,13 @@
 # pisend
 pisend betas
 
+09/03/2020
+
+-- updates
+  - added visualisers to audio playback
+  - tzxload now adjusts playback frequency to match timings 
+  - fixed missing quotted file names with spaces in SDH and SID players (eugh)
+
 v2.06b 01/03/2020
 
 -- fixes 
