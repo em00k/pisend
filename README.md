@@ -1,5 +1,13 @@
 # pisend
 pisend betas
+22/03/2020
+
+-- updates 
+  - added more visual things 
+  - added mp3 player
+-- fixes 
+  - drops speed to allow uart to keep pace
+  - fixes files >4MB that could faile. tested many files up to 20mb.
 
 09/03/2020
 
