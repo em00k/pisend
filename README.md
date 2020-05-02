@@ -5,6 +5,10 @@ pisend betas
 
 I HIGHLY recommend you now use 2mbit unles you have an issue. There is a try2mb.bas file in the pisend folder that will let you TEST the faster speeds - you can revert by doing a power cycle. Everything is better at 2mb!
 
+-- known issues 
+
+  - visusliser crashes randomly, recommend a reset for now.
+
 -- updates 
   - added more visual things (even more sickly)
   - now tries to read meta data for the file from SD or asking the pi0
