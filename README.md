@@ -1,5 +1,22 @@
 # pisend
 pisend betas
+
+01/05/2020 v2.20
+
+I HIGHLY recommend you now use 2mbit unles you have an issue. There is a try2mb.bas file in the pisend folder that will let you TEST the faster speeds - you can revert by doing a power cycle. Everything is better at 2mb!
+
+-- updates 
+  - added more visual things (even more sickly)
+  - now tries to read meta data for the file from SD or asking the pi0
+    (this isnt 100% failure proof)
+  - Now plays track time in pi0 player offers it up
+  - improves larger tranfers
+  - some internal improvements to pisend 
+  - updated handlers for new visuals 
+-- fixes 
+  - many 
+  - more
+  
 22/03/2020
 
 -- updates 
