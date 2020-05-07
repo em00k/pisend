@@ -1,7 +1,7 @@
 # pisend
 pisend betas
 
-07/05/2002 v2.20    Raindbow Player (i2s.bin) v1.1 
+07/05/2002 pisend v2.20    Raindbow Player (i2s.bin) v1.1 
 
 This is just an update for the visualizer , Raindbow Player 
 -- know issues 
