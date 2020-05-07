@@ -1,6 +1,32 @@
 # pisend
 pisend betas
 
+I would highly recommend you test out 2mb, run the test2mb.bas and this will temporarily set your pi0 to 2,000,000. If you have any issues you can power cycle the Next to get back to 115,200. When you are happy you can use pisend to permanently set the higher speed. 
+
+Enjoy, em00k
+
+pisend usage
+```
+.pisend -q 
+
+ tests for NextPi, first 115,200 then 2Mbit, sets ref $7f to 2 or 8 respectively, 0 on fail
+ 
+.pisend {filename}
+
+ base64 encodes the selected file and sends in chunks to NextPi
+ 
+.pisend -s {string}
+
+ sends keys to NextPi console (useful for controlling running apps like ModPi)
+ 
+ You must .pisend -q before .pisend -U as this will set an internal register.
+ 
+.pisend -U 
+ ** WARNING THIS COULD STOP NEXTPI FROM BOOTING **
+ swaps baud rate of NextPi between 115,200 and 2Mbit, reboots the pi. Use .term to check progress
+ 
+ ```
+
 07/05/2002 pisend v2.20    Raindbow Player (i2s.bin) v1.1 
 
 This is just an update for the visualizer , Raindbow Player 
@@ -66,27 +92,6 @@ first version of ModPi Player included with better playback control & amplificat
 
 
 
-usage
-```
-.pisend -q 
-
- tests for NextPi, first 115,200 then 2Mbit, sets ref $7f to 2 or 8 respectively, 0 on fail
- 
-.pisend {filename}
-
- base64 encodes the selected file and sends in chunks to NextPi
- 
-.pisend -s {string}
-
- sends keys to NextPi console (useful for controlling running apps like ModPi)
- 
- You must .pisend -q before .pisend -U as this will set an internal register.
- 
-.pisend -U 
- ** WARNING THIS COULD STOP NEXTPI FROM BOOTING **
- swaps baud rate of NextPi between 115,200 and 2Mbit, reboots the pi. Use .term to check progress
- 
- ```
  The update hasnt failed in any test but as it is altering a boot file, the warning is given
  
  
