@@ -1,6 +1,16 @@
 # pisend
 pisend betas
 
+07/05/2002 v2.20    Raindbow Player (i2s.bin) v1.1 
+
+This is just an update for the visualizer , Raindbow Player 
+-- know issues 
+  - still may crash 
+-- updates
+  - added help with H 
+  - faster visuals 
+  - press N to load a new tune from the 
+
 01/05/2020 v2.20
 
 I HIGHLY recommend you now use 2mbit unles you have an issue. There is a try2mb.bas file in the pisend folder that will let you TEST the faster speeds - you can revert by doing a power cycle. Everything is better at 2mb!
