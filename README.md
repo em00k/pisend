@@ -19,6 +19,8 @@ pisend usage
 
  sends keys to NextPi console (useful for controlling running apps like ModPi)
  
+.pisend -r to empty 512 bytes to $c000 fron the uart buffer
+ 
  You must .pisend -q before .pisend -U as this will set an internal register.
  
 .pisend -U 
